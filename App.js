@@ -3,7 +3,7 @@ import { SafeAreaView, View, Text, TouchableOpacity, StyleSheet, ScrollView, Tex
 export default function App() {
   const [pagina, setPagina] = useState('home');
 
-
+  
   return (
     <SafeAreaView style={style.container}>
       <Header pagina={pagina} setPagina={setPagina} />
